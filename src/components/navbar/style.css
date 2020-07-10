@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: absolute;
+}
+.navLinkLeft {
+  float: left;
+
+
+}
+.navLinkRight {
+  float: right;
+}

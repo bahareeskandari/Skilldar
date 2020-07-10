@@ -1,0 +1,19 @@
+.searchBar{
+border: 1px solid transparent;
+height: 50px;
+width: 700px;
+}
+h2 {
+  display:inline-block
+}
+input {
+  display:inline-block
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color:red;
+  border-radius: 50%;
+  display: inline-block;
+}
