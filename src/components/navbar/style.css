@@ -1,13 +1,27 @@
 .navbar {
-  background-color: #333;
-  overflow: hidden;
-  position: absolute;
+  background-color: rgba(20, 21, 23, 1);
+  top: 0px;
+  height: 49px;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  display: block;
+  border-color: rgba(51, 52, 55, 1);
 }
 .navLinkLeft {
   float: left;
-
-
+  color: gray;
 }
 .navLinkRight {
   float: right;
+  color: gray;
+}
+svg {
+  vertical-align: middle;
+}
+#hashtag{
+  vertical-align: middle;
+  font-size: 30px;
+  color: red;
+  display: inline;
 }

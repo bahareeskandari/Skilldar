@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import Pagination from 'pagination-react-hooks'
 import {fakeData} from '../mockData'
+import './style.css'
 import Select from '../select/Select'
+import RelatedSearch from '../relatedSearch/RelatedSearch'
 import SearchBar from '../searchbar/SearchBar'
 import Video from '../videos/Video'
 //import icons
@@ -32,15 +34,17 @@ const MainPage = () => {
   return (
     <div className="mainpage">
       <SearchBar value={inputValue} onChange={handleInput} />
-
+<RelatedSearch/>
       <Select handleOption={handleOption} categories={categories} />
       <Pagination
         data={posts}
         Show={show}
-        displayNumber="13"
+        displayNumber="3"
         previousText="Previous"
         nextText="Next"
+        className="pagination"
       />
+
     </div>
   )
 }

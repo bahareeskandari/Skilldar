@@ -1,0 +1,28 @@
+.footer {
+  background-color: rgba(20, 21, 23, 1);
+  bottom: 0px;
+  height: 49px;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  display: block;
+  border-color: rgba(51, 52, 55, 1);
+}
+.footerLeft a{
+  float: left;
+  color: rgba(145, 146, 149, 1);
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.footerRight a{
+  float: right;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.footerRight a:first-child{
+color: purple;
+}
+.footerRight a:nth-child(2){
+  color: green;
+  }

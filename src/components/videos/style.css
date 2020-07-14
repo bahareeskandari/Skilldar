@@ -1,0 +1,33 @@
+.videoDiv {
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0);
+  margin-top: 45px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 2px 2px #000000;
+  color: white;
+  position: relative;
+  list-style: none;
+  border: 9px solid rgba(226, 226, 226, 0);
+  text-align: left;
+
+}
+
+.overview {
+  display: inline-block;
+  width: 46%;
+  max-height: 130px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.videoPic {
+  display: inline-block;
+  vertical-align: top;
+  width: 26%;
+  max-height: 125px;
+  float: left;
+}
+.city {
+  float: right;
+}

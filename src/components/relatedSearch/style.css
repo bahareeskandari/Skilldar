@@ -1,0 +1,11 @@
+.relatedSearch {
+  position: absolute;
+  left: 70px;
+  top: 300px;
+
+}
+li {
+  list-style: none;
+  color: red;
+  margin: 2px;
+}

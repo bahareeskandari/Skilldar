@@ -1,5 +1,8 @@
 .App {
   box-sizing: border-box;
-  background: rgba(42, 44, 47, 1.0);
+  background-color: transparent;
   position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
